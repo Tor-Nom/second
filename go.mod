@@ -1,4 +1,4 @@
-module second
+module github.com/Tor-Nom/second
 
 go 1.13
 

@@ -1,6 +1,6 @@
 package main
 
-import "second"
+import "github.com/Tor-Nom/second"
 
 func main() {
 
