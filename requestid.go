@@ -20,6 +20,8 @@ func RequestIdRe() gin.HandlerFunc {
 		c.Writer.Header().Set("X-Request-Id", requestID)
 
 		fmt.Println("X-Request-Id  ==> ", c.Request.Header.Get("X-Request-Id"))
+		//c.Get("RequestId") //代码上下文获取RequestId
+
 		c.Next()
 	}
 }
